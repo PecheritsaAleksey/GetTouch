@@ -9,6 +9,13 @@ function IndexPage() {
   return (
     <Layout>
       <SEO keywords={[`fullstack developer`, `youtube`]} title="Pecheritsa Alex" />
+      <style>
+        {`
+            body {
+              background-image: url(https://source.unsplash.com/1L71sPT5XKc);
+            }
+        `}
+      </style>
       <div className="max-w-4xl flex items-center h-auto lg:h-screen flex-wrap mx-auto my-32 lg:my-0">
         <div
           id="profile"
@@ -55,7 +62,7 @@ function IndexPage() {
             <div className="mt-6 pb-16 lg:pb-0 w-4/5 lg:w-full mx-auto flex flex-wrap items-center justify-between">
               <a
                 className="link"
-                href="vk.com/pecheritsa_alex"
+                href="https://vk.com/pecheritsa_alex"
                 data-tippy-content="@vk_handle"
               >
                 <svg
