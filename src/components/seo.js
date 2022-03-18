@@ -23,6 +23,11 @@ function SEO({ description, lang, meta, keywords, title }) {
       htmlAttributes={{
         lang,
       }}
+      bodyAttributes={{
+        class:
+          "font-sans antialiased text-gray-900 leading-normal tracking-wider bg-cover",
+        style: "background-image:url('https://source.unsplash.com/1L71sPT5XKc');",
+      }}
       meta={[
         {
           name: `description`,
