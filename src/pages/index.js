@@ -8,11 +8,14 @@ import profilePic from "../images/main.jpg";
 function IndexPage() {
   return (
     <Layout>
-      <SEO keywords={[`fullstack developer`, `youtube`]} title="Pecheritsa Alex" />
+      <SEO
+        keywords={[`fullstack developer`, `Web Software Engineer`, `youtube`]}
+        title="Pecheritsa Alex"
+      />
       <style>
         {`
             body {
-              background-image: url(https://source.unsplash.com/1L71sPT5XKc);
+              background-image: url(https://source.unsplash.com/ZOXneUZujfo);
             }
         `}
       </style>
@@ -23,7 +26,7 @@ function IndexPage() {
         >
           <div className="p-4 md:p-12 text-center lg:text-left">
             <img
-              className="object-cover block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
+              className="object-cover block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48"
               src={profilePic}
             />
 
@@ -37,7 +40,7 @@ function IndexPage() {
               >
                 <path d="M9 12H1v6a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-6h-8v2H9v-2zm0-1H0V5c0-1.1.9-2 2-2h4V2a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v1h4a2 2 0 0 1 2 2v6h-9V9H9v2zm3-8V2H8v1h4z" />
               </svg>{" "}
-              Full-stack developing, Video making, Youtube, Fitness
+              Web Software Engineer, Fitness, Motorcycle, Content Creator
             </p>
             <p className="pt-2 text-gray-600 text-xs lg:text-sm flex items-center justify-center lg:justify-start">
               <svg
