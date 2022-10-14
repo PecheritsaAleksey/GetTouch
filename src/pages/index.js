@@ -15,7 +15,7 @@ function IndexPage() {
       <style>
         {`
             body {
-              background-image: url(https://source.unsplash.com/ZOXneUZujfo);
+              background-image: url(https://source.unsplash.com/xrVDYZRGdw4);
             }
         `}
       </style>
